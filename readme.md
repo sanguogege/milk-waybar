@@ -33,5 +33,7 @@
 3. Install the dependencies and restart Waybar:
 
 	```bash
+    chmod +x  ~/.config/waybar/install
+    
 	~/.config/waybar/install
 	```
