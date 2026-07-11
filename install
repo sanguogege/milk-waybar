@@ -12,6 +12,8 @@ DEPS=(
     brightnessctl
     fzf
     NetworkManager  # nmcli
+    libnotify
+    mako
 )
 
 # 检查包是否已安装
