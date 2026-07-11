@@ -9,7 +9,7 @@
     "modules-left": [
         "custom/user",
         "clock",
-        "custom/power",
+        "custom/power2",
         "idle_inhibitor"
         
     ],
@@ -26,7 +26,7 @@
         "custom/power",
         "tray"
     ],
-    "custom/power": {
+    "custom/power2": {
         "format": "⏻ ",
         "tooltip": false,
         "menu": "on-click",
