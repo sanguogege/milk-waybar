@@ -9,7 +9,6 @@
     "modules-left": [
         "custom/user",
         "clock",
-        "custom/power2",
         "idle_inhibitor"
         
     ],
@@ -26,18 +25,6 @@
         "custom/power",
         "tray"
     ],
-    "custom/power2": {
-        "format": "⏻ ",
-        "tooltip": false,
-        "menu": "on-click",
-        "menu-file": "~/.config/waybar/ui/power_menu.xml",
-        "menu-actions": {
-            "shutdown": "shutdown",
-            "reboot": "reboot",
-            "suspend": "systemctl suspend",
-            "hibernate": "systemctl hibernate"
-        }
-    },
     /*-------------
 	    Options
 	-------------*/
