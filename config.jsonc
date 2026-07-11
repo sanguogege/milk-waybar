@@ -19,7 +19,7 @@
         "cpu",
         "memory",
         "backlight",
-        "pulseaudio",
+        "group/pulseaudio",
         "battery",
         "network",
         "custom/power",
