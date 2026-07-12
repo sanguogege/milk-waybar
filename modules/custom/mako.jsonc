@@ -1,0 +1,7 @@
+{
+  "custom/mako": {
+    "exec": "sh -c 'pgrep -x mako > /dev/null || mako &'",
+    "interval": 999999,
+    "format": "{}",
+  },
+}

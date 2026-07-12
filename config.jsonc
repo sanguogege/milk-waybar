@@ -7,13 +7,13 @@
 	    Layout
 	------------*/
     "modules-left": [
+        "custom/mako",
         "custom/user",
-        "clock",
-        "idle_inhibitor"
-        
+        "clock"
+
     ],
     "modules-center": [
-        "custom/workspaces"
+      "tray"
     ],
     "modules-right": [
         "cpu",
@@ -21,9 +21,10 @@
         "backlight",
         "group/pulseaudio",
         "battery",
+        "bluetooth",
         "network",
-        "custom/power",
-        "tray"
+        "custom/power"
+
     ],
     /*-------------
 	    Options

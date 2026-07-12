@@ -18,11 +18,11 @@
             "󰤨"
         ],
         // "rotate":
-        "min-length": 2,
-        "max-length": 2,
+        "min-length": 3,
+        "max-length": 3,
         // "align":
         // "justify":
-        "on-click": "kitty -e ~/.config/waybar/scripts/network",
+        "on-click": "alacritty -e bash ~/.config/waybar/scripts/network",
         // "on-click-middle":
         "on-click-right": "~/.config/waybar/scripts/network off",
         // "on-update":

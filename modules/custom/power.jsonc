@@ -11,8 +11,8 @@
         "format": "⏻",
         // "format-icons":
         // "rotate":
-        "min-length": 2,
-        "max-length": 2,
+        "min-length": 3,
+        "max-length": 3,
         // "align":
         // "justify":
         //"on-click": "kitty -e ~/.config/waybar/scripts/power",
