@@ -16,6 +16,7 @@
       "tray"
     ],
     "modules-right": [
+        "temperature",
         "cpu",
         "memory",
         "backlight",
