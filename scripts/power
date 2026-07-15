@@ -13,6 +13,9 @@ main() {
 		"Lock"
 		"Shutdown"
 		"Reboot"
+		"Logout"
+		"Hibernate"
+		"Suspend"
 	)
 
 	local options=(
@@ -34,6 +37,9 @@ main() {
 		Lock)      loginctl lock-session ;;
 		Shutdown)  systemctl poweroff ;;
 		Reboot)    systemctl reboot ;;
+		Logout)    loginctl terminate-session "$XDG_SESSION_ID" ;;
+		Hibernate) systemctl hibernate ;;
+		Suspend)   systemctl suspend ;;
 		*)         return 1 ;;
 	esac
 }

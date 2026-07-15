@@ -1,5 +1,5 @@
 {
-	"custom/user": {
+	"custom/distro": {
 		// "exec":
 		// "exec-if":
 		// "exec-on-event":
@@ -8,11 +8,11 @@
 		// "interval":
 		// "restart-interval":
 		// "signal":
-		"format": "󰍜",
+		"format": "󰣇",
 		// "format-icons":
 		// "rotate":
-		"min-length": 4,
-		"max-length": 4,
+		// "min-length":
+		// "max-length":
 		// "align":
 		// "justify":
 		// "on-click":
@@ -22,8 +22,8 @@
 		// "on-scroll-up":
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":
-		// "tooltip":
-		"tooltip-format": "No command set"
+		"tooltip": false
+		// "tooltip-format":
 		// "escape":
 		// "menu":
 		// "menu-file":

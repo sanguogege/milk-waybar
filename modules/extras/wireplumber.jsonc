@@ -1,9 +1,9 @@
 {
-	"group/pulseaudio": {
+	"group/wireplumber": {
 		"orientation": "horizontal",
 		"modules": [
-			"pulseaudio#output",
-			"pulseaudio#input"
+			"wireplumber#output",
+			"wireplumber#input"
 		],
 		"drawer": {
 			// "transition-duration":
@@ -17,20 +17,14 @@
 	    Output device
 	-------------------*/
 
-	"pulseaudio#output": {
+	"wireplumber#output": {
 		"format": "{icon} {volume}%",
-		// "format-bluetooth":
-		"format-muted": "{icon} {volume}%",
+		"format-muted": "󰝟 {volume}%",
 		// "format-source":
 		// "format-source-muted":
-		"format-icons": {
-			"default": [ "󰕿", "󰖀", "󰕾" ],
-			"default-muted": "󰝟",
-			"headphone": "󰋋",
-			"headphone-muted": "󰟎",
-			"headset": "󰋎",
-			"headset-muted": "󰋐"
-		},
+		"format-icons": [
+			"󰕿", "󰖀", "󰕾"
+		],
 		// "rotate":
 		// "states":
 		"min-length": 7,
@@ -44,30 +38,25 @@
 		// "on-update":
 		"on-scroll-up": "~/.config/waybar/scripts/volume output raise",
 		"on-scroll-down": "~/.config/waybar/scripts/volume output lower",
-		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "<b>Output Device</b>: {desc}"
+		"tooltip-format": "Device: {node_name}",
 		// "max-volume":
-		// "ignored-sinks":
 		// "reverse-scrolling":
-		// "reverse-mouse-scrolling":
+		"node-type": "Audio/Sink"
 		// "menu":
 		// "menu-file":
 		// "menu-actions":
-		// "expand":
 	},
 
 	/*----------------
 	    Microphone
 	----------------*/
 
-	"pulseaudio#input": {
-		"format": "{format_source}",
-		// "format-bluetooth":
-		// "format-muted":
-		"format-source": "󰍬 {volume}%",
-		"format-source-muted": "󰍭 {volume}%",
-		// "format-icons":
+	"wireplumber#input": {
+		"format": "󰍬 {volume}%",
+		"format-muted": "󰍭 {volume}%",
+		// "format-source":
+		// "format-source-muted":
 		// "rotate":
 		// "states":
 		"min-length": 7,
@@ -81,16 +70,13 @@
 		// "on-update":
 		"on-scroll-up": "~/.config/waybar/scripts/volume input raise",
 		"on-scroll-down": "~/.config/waybar/scripts/volume input lower",
-		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "<b>Input Device</b>: {desc}"
+		"tooltip-format": "Device: {node_name}",
 		// "max-volume":
-		// "ignored-sinks":
 		// "reverse-scrolling":
-		// "reverse-mouse-scrolling":
+		"node-type": "Audio/Source"
 		// "menu":
 		// "menu-file":
 		// "menu-actions":
-		// "expand":
 	}
 }

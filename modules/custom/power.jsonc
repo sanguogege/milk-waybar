@@ -1,38 +1,33 @@
 {
-    "custom/power": {
-        // "exec":
-        // "exec-if":
-        // "exec-on-event":
-        // "hide-empty-text":
-        // "return-type":
-        // "interval":
-        // "restart-interval":
-        // "signal":
-        "format": "<span size='14336'>⏻</span>",
-        // "format-icons":
-        // "rotate":
-        "min-length": 3,
-        "max-length": 3,
-        // "align":
-        // "justify":
-        //"on-click": "kitty -e ~/.config/waybar/scripts/power",
-        // "on-click-middle":
-        // "on-click-right":
-        // "on-update":
-        // "on-scroll-up":
-        // "on-scroll-down":
-        // "smooth-scrolling-threshold":
-        // "tooltip":
-        "tooltip-format": "Power Menu",
-        // "escape":
-        "menu": "on-click",
-        "menu-file": "~/.config/waybar/ui/power_menu.xml",
-        "menu-actions": {
-            "shutdown": "systemctl poweroff",
-            "reboot": "systemctl reboot",
-            "suspend": "systemctl suspend",
-            "hibernate": "systemctl hibernate"
-        }
-        // "expand":
-    }
+	"custom/power": {
+		// "exec":
+		// "exec-if":
+		// "exec-on-event":
+		// "hide-empty-text":
+		// "return-type":
+		// "interval":
+		// "restart-interval":
+		// "signal":
+		"format": "󰤄",
+		// "format-icons":
+		// "rotate":
+		// "min-length":
+		// "max-length":
+		// "align":
+		// "justify":
+		"on-click": "kitty -e ~/.config/waybar/scripts/power",
+		// "on-click-middle":
+		// "on-click-right":
+		// "on-update":
+		// "on-scroll-up":
+		// "on-scroll-down":
+		// "smooth-scrolling-threshold":
+		// "tooltip":
+		"tooltip-format": "Power Menu"
+		// "escape":
+		// "menu":
+		// "menu-file":
+		// "menu-actions":
+		// "expand":
+	}
 }
