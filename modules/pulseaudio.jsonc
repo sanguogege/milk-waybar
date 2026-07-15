@@ -64,8 +64,8 @@
         "format": "{format_source}",
         // "format-bluetooth":
         // "format-muted":
-        "format-source": "<span size='18432' rise='-3072'>󰍬</span> {volume}%",
-        "format-source-muted": "<span size='18432' rise='-3072'>󰍭</span> {volume}%",
+        "format-source": "<span size='14336' rise='-1024'>󰍬</span> {volume}%",
+        "format-source-muted": "<span size='14336' rise='-1024'>󰍭</span> {volume}%",
         // "format-icons":
         // "rotate":
         // "states":

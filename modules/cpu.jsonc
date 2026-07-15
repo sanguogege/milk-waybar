@@ -1,7 +1,7 @@
 {
     "cpu": {
         "interval": 10,
-        "format": "<span size='18432' rise='-3072'>󰍛</span> {usage}%",
+        "format": "<span size='18432' rise='-3072'></span> {usage}%",
         "format-warning": "<span size='18432' rise='-3072'>󰀨</span> {usage}%",
         "format-critical": "<span size='18432' rise='-3072'>󰀨</span> {usage}%",
         // "format-icons":
