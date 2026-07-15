@@ -19,7 +19,6 @@
 	background-color: @outline;
 }
 #waybar > box {
-	margin: 4px;
 	background-color: @main-bg;
 }
 
