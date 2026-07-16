@@ -20,8 +20,8 @@
 		"idle_inhibitor",
 		"clock#time",
 		"clock#date",
-		"custom/network",
-		"custom/bluetooth"
+		"network",
+		"bluetooth"
 	],
 	"modules-right": [
 		"mpris",
