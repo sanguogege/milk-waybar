@@ -21,7 +21,7 @@
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/network",
 		// "on-click-middle":
-		"on-click-right": "~/.config/waybar/scripts/network off",
+		"on-click-right": "bash ~/.config/waybar/scripts/network off",
 		// "on-update":
 		// "on-scroll-up":
 		// "on-scroll-down":
