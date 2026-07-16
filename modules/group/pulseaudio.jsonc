@@ -38,12 +38,12 @@
 		// "align":
 		// "justify":
 		// "scroll-step":
-		"on-click": "~/.config/waybar/scripts/volume output mute",
+		"on-click": "bash ~/.config/waybar/scripts/volume output mute",
 		// "on-click-middle":
 		// "on-click-right":
 		// "on-update":
-		"on-scroll-up": "~/.config/waybar/scripts/volume output raise",
-		"on-scroll-down": "~/.config/waybar/scripts/volume output lower",
+		"on-scroll-up": "bash ~/.config/waybar/scripts/volume output raise",
+		"on-scroll-down": "bash ~/.config/waybar/scripts/volume output lower",
 		// "smooth-scrolling-threshold":
 		// "tooltip":
 		"tooltip-format": "<b>Output Device</b>: {desc}"
