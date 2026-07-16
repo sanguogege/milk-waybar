@@ -13,7 +13,6 @@
 
 #pulseaudio,
 #wireplumber {
-    padding: 0 4px;
 	background-color: @volume;
 }
 
@@ -41,7 +40,6 @@
 ----------------*/
 
 #custom-power {
-	padding: 0 16px;
 	color: @accent;
 }
 #custom-power:hover {

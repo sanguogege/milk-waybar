@@ -11,8 +11,8 @@
 		"format": "⏻",
 		// "format-icons":
 		// "rotate":
-		// "min-length":
-		// "max-length":
+		"min-length": 8,
+		"max-length": 8,
 		// "align":
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/power",

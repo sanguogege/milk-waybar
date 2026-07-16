@@ -65,8 +65,8 @@
 -----------------*/
 
 #custom-network {
-	background-color: @tray;;
+	background-color: @tray;
 }
 #custom-bluetooth {
-	background-color: @tray;;
+	background-color: @tray;
 }

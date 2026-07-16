@@ -17,7 +17,7 @@
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/bluetooth",
 		// "on-click-middle":
-		"on-click-right": "~/.config/waybar/scripts/bluetooth off",
+		"on-click-right": "bash ~/.config/waybar/scripts/bluetooth off",
 		// "on-scroll-up":
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":
