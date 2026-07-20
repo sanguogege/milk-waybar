@@ -30,7 +30,7 @@ install_deps() {
             printf "[=] %s\n" "$dep"
         else
             printf "[ ] %s...\n" "$dep"
-            if sudo dnf install -y "$dep"; then
+            if sudo yay -S "$dep"; then
                 printf "[%b+%b] %s\n" "$FG_GREEN" "$FG_RESET" "$dep"
             else
                 printf "[%bx%b] %s\n" "$FG_RED" "$FG_RESET" "$dep"

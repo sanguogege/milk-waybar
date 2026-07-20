@@ -23,11 +23,13 @@
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "No command set"
+		"tooltip-format": "No command set",
 		// "escape":
-		// "menu":
-		// "menu-file":
-		// "menu-actions":
+		"menu": "on-click",
+		"menu-file": "~/.config/waybar/xml/user.xml",
+		"menu-actions": {
+
+    }
 		// "expand":
 	}
 }
