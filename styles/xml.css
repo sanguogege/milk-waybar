@@ -1,10 +1,14 @@
 menu {
-    border-radius: 15px;
+    border-radius: 2px;
     background: #161320;
-    color: #b5e8e0;
+    color: yellow;
 }
 
 menuitem {
-    padding: 8px;
-    border-radius: 15px;
+    padding: 6px 24px;
+    border-radius: 2px;
+}
+
+menuitem:hover {
+  background: red;
 }

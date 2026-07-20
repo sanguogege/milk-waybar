@@ -14,8 +14,8 @@
 			"󱃃", "󰔏", "󱃂"
 		],
 		// "rotate":
-		"min-length": 8,
-		"max-length": 8,
+		"min-length": 10,
+		"max-length": 10,
 		// "align":
 		// "justify":
 		// "on-click":

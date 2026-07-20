@@ -32,8 +32,8 @@
 		// "timezone":
 		// "timezones":
 		// "locale":
-		"min-length": 8,
-		"max-length": 8,
+		"min-length": 10,
+		"max-length": 10,
 		// "rotate":
 		// "on-click":
 		// "on-click-middle":

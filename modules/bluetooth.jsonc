@@ -11,8 +11,8 @@
 		// "format-no-controller":
 		// "format-icons":
 		// "rotate":
-		"min-length": 4,
-		"max-length": 4,
+		"min-length": 5,
+		"max-length": 5,
 		// "align":
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/bluetooth",

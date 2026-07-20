@@ -28,7 +28,8 @@
 		"menu": "on-click",
 		"menu-file": "~/.config/waybar/xml/user.xml",
 		"menu-actions": {
-
+         "shutdown": "systemctl poweroff",
+         "reboot": "systemctl reboot"
     }
 		// "expand":
 	}
